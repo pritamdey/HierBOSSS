@@ -58,9 +58,4 @@ We develop a hierarchical Bayesian framework for symbolic regression that repres
 
 <br><br>
 
-<figure align="center">
-  <img src="assets/HierBOSSS_comparison.png" alt="HierBOSSS_comparison" width="800"/>
-  <figcaption><em>Figure 2: Comparing HierBOSSS with competing symbolic regression methods in learning the Coulomb's law.</em></figcaption>
-</figure>
-
 ---
