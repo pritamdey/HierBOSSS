@@ -9,10 +9,10 @@
 [![Pull Requests](https://img.shields.io/github/issues-pr/Roy-SR-007/HierBOSSS)](https://github.com/Roy-SR-007/HierBOSSS/pulls)
 
 <p align="center">
-  <img src="hierbosss_tree.gif" alt="HierBOSSS_logo" width="800"/>
+  <img src="assets/hierbosss_tree.gif" alt="HierBOSSS_logo" width="800"/>
 </p>
 
-This repository holds the source code and implementation of **HierBOSSS** for Bayesian structural learning of scientific symbolic expressions proposed in Roy, S., Dey, P., Pati, D., & Mallick, B. K. (2025), *Hierarchical Bayesian Operator-induced Symbolic Regression Trees for Structural Learning of Scientific Expressions*.
+This repository holds the source code and implementation of **HierBOSSS** for Bayesian structural learning of scientific symbolic expressions proposed in Roy, S., Dey, P., Pati, D., & Mallick, B. K. (2025+), *Hierarchical Bayesian Operator-induced Symbolic Regression Trees for Structural Learning of Scientific Expressions*.
 
 ---
 
@@ -36,7 +36,8 @@ Texas A&M University, College Station, TX, USA
 
 ## Overview
 
-We develop a hierarchical Bayesian framework for symbolic regression that represents scientific laws as ensembles of tree-structured symbolic expressions endowed with a regularized tree prior. This coherent probabilistic formulation enables full posterior inference via an efficient Markov chain Monte Carlo algorithm, yielding a balance between predictive accuracy and structural parsimony. To guide symbolic model selection, we develop a marginal posterior–based criterion adhering to the Occam’s window principle.
+We develop a hierarchical Bayesian framework for symbolic regression (**HierBOSSS**) that models symbolic expressions through an ensemble of symbolic tree-structured scientific expressions, regarded as the symbolic forest component. Conjugate priors are assigned to model regression parameters, while a regularizing prior is designed for the individual symbolic tree structures. This coherent probabilistic formulation enables full posterior inference via an efficient Markov chain Monte Carlo algorithm, yielding a balance between predictive accuracy and structural parsimony. To guide symbolic model selection, we develop a marginal posterior–based criterion adhering to the Occam’s window principle. 
+
 <br><br>
 
 <figure align="center">
@@ -52,10 +53,3 @@ We develop a hierarchical Bayesian framework for symbolic regression that repres
 </figure>
 
 <br><br>
-
-
-**HierBOSSS** models symbolic expressions through an ensemble of symbolic tree-structured scientific expressions, regarded as the symbolic forest component. Conjugate priors are assigned to model regression parameters, while a regularizing prior is designed for the individual symbolic tree structures. To perform inference from the HierBOSSS-induced posterior distribution, we develop an efficient Metropolis-within-partially-collapsed Gibbs Markov chain Monte Carlo (MCMC) sampling algorithm.
-
-<br><br>
-
----
