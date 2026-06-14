@@ -34,15 +34,6 @@ Texas A&M University, College Station, TX, USA
 
 ---
 
-## NEWS
-
-- This is the first official release of `HierBOSSS v1.0.0` on `GitHub`.
-- Explore HierBOSSS' ability in Bayesian scientific machine learning for discovering and learning various scientific symbolic expressions.
-- HierBOSSS has been applied for learning a suite of canonical Feynman equations and discovering important descriptors for single-atom catalysis.
-- Comparisons have been presented against state-of-the-art competing symbolic regression modules.
-
----
-
 ## Overview
 
 We develop a hierarchical Bayesian framework for symbolic regression that represents scientific laws as ensembles of tree-structured symbolic expressions endowed with a regularized tree prior. This coherent probabilistic formulation enables full posterior inference via an efficient Markov chain Monte Carlo algorithm, yielding a balance between predictive accuracy and structural parsimony. To guide symbolic model selection, we develop a marginal posterior–based criterion adhering to the Occam’s window principle.
